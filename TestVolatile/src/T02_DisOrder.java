@@ -27,9 +27,9 @@ public class T02_DisOrder {
 
 			one.start(); other.start();
 			one.join(); other.join();
-			String result = "µÚ" + i + "´Î£¨" + x + "," + y + ")";
+			String result = "ï¿½ï¿½" + i + "ï¿½Î£ï¿½" + x + "," + y + ")";
 			if (x == 0 && y == 0) {
-				//Ö»ÓĞ·¢ÉúÂÒĞòx=bÓÅÏÈÓÚa=1»òÕßy=aÓÅÏÈÓÚb=1ÏÈÖ´ĞĞ£¬²Å»á³öÏÖx,y¶¼µÈÓÚ0
+				//åªæœ‰å‘ç”Ÿä¹±åºx=bä¼˜å…ˆäºa=1æˆ–è€…y=aä¼˜å…ˆäºb=1å…ˆæ‰§è¡Œï¼Œæ‰ä¼šå‡ºç°x,yéƒ½ç­‰äº0
 				System.err.println(result);
 				break;
 			} else {

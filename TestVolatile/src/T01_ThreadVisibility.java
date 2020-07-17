@@ -6,7 +6,7 @@ public class T01_ThreadVisibility {
 
 		new Thread(() -> {
 			while (flag) {
-				// 不加volatile永远退不出循环
+				// 涓嶅姞volatile姘歌繙閫�涓嶅嚭寰幆
 			}
 			System.out.println("end");
 		}, "server").start();
